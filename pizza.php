@@ -10,7 +10,7 @@
 			if (empty($_GET['ingr'])) {
 				$pvp = ((100 + $IVA) / 100) * $preu;
 				echo "Has demanat només la pizza bàsica. El preu és $pvp € (IVA inclòs)<br>";
-				exit(0);
+				#exit(0);
 			} else {
 				$IVA = 21;
 				$pvp = ((100 + $IVA) / 100) * ($preu + count($_GET['ingr']));
@@ -21,10 +21,11 @@
 					}
 				}
 				echo "El preu és $pvp € (IVA inclòs)<br>";
-				exit(0);
+				#exit(0);
 			}
 			echo "<br>";
 			echo "Autor: dacomo"."<br>";
 		?>
+		<a href="pizza.html">Retorna al formulari de selecció d’ingredients</a>
 	</body>
 </html>

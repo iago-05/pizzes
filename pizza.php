@@ -24,7 +24,8 @@
 				#exit(0);
 			}
 			echo "<br>";
-			echo "Autor: dacomo"."<br>";
+			echo "Autor: iavame"."<br>";
+			echo date("l jS \of F Y h:i:s A") . "<br>";
 		?>
 		<a href="pizza.html">Retorna al formulari de selecció d’ingredients</a>
 	</body>

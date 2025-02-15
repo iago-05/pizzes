@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<meta content="text/html; charset=UTF-8" http-equiv="content-type">
-		<title>FES LA TEVA PIZZA: iavame</title>
+		<title>FES LA TEVA PIZZA: Iavame</title>
 	</head>
 	<body>
 		<?php
@@ -24,7 +24,7 @@
 				#exit(0);
 			}
 			echo "<br>";
-			echo "Autor: iavame"."<br>";
+			echo "Autor: Iavame"."<br>";
 			echo date("l jS \of F Y h:i:s A") . "<br>";
 		?>
 		<a href="pizza.html">Retorna al formulari de selecció d’Ingredients</a>

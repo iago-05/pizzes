@@ -27,6 +27,6 @@
 			echo "Autor: iavame"."<br>";
 			echo date("l jS \of F Y h:i:s A") . "<br>";
 		?>
-		<a href="pizza.html">Retorna al formulari de selecció d’ingredients</a>
+		<a href="pizza.html">Retorna al formulari de selecció d’Ingredients</a>
 	</body>
 </html>
